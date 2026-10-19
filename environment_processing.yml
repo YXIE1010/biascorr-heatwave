@@ -1,0 +1,31 @@
+name: jupyenv
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - ipykernel
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - netcdf4
+  - h5py
+  - cftime
+  - cartopy
+  - shapely
+  - pyproj
+  - pyarrow
+  - ca-certificates
+  - certifi
+  - openssl
+  - gstools
+  - xarray
+  - dask
+  - h5netcdf
+  - zarr[version='<3']
+  - numcodecs[version='<0.12']
+  - gcsfs
+prefix: /home/yxie/.conda/envs/jupyenv

@@ -1,0 +1,11 @@
+name: credit310
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - python=3.10
+  - pyarrow=12
+  - ca-certificates
+  - openssl
+prefix: /home/yxie/.conda/envs/credit310

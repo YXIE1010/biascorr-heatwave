@@ -1,0 +1,21 @@
+# data & outputs
+*.nc
+*.zarr/
+*.h5
+*.npy
+*.pkl
+*.csv
+*.png
+*.pdf
+slurm-*.out
+*.log
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# credentials
+.cdsapirc
+*.key
+.env
